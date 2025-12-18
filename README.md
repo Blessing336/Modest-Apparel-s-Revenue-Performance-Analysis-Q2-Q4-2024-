@@ -1,2 +1,14 @@
-# Modest-Apparel-s-Customer-Intelligence-Product-Prioritization-Operational-Efficiency-Q2-Q4-2024-
-This project focuses on Inventory, Order Cycle Time, Labor Performance, Product Segmentation, and RFM analyses
+
+<p align="center">
+  <img src="Asset%204.png" alt="Modest_Apparel Logo" width="800" height="800" />
+</p>
+
+<!-- Title -->
+<h1 align="center">Retail Performance Report</h1>
+
+
+
+
+
+
+
