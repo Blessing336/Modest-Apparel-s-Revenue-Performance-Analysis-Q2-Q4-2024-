@@ -33,10 +33,10 @@ Reporting to the CEO, this analysis was conducted to transform Modest Apparel in
 <!-- Title -->
 <h1 align="center">EXECUTIVE SUMMARY</h1>
 
-<h3 align="center">Revenue Crisis Deepens as December Hits ₦187.5M Despite Holiday Season</h3>
+<h3 align="center">Orders Peaked at 805 in June Before Dropping 42% to 469 by Year End</h3>
   
 <p align="center">
-  <img src="resources/Rev.png" alt="Revenue" width="2000" height="2000" />
+  <img src="resources/orders.png" alt="Revenue" width="2000" height="2000" />
 </p>
 
 <br/>
@@ -75,6 +75,13 @@ In October, revenue declined **30% month-over-month to ₦201.6M** as economic c
 <br/>
 
 <h3 align="center">THE ROOT CAUSE</h3>
+
+<h3 align="center">Revenue Crisis Deepens as December Hits ₦187.5M Despite Holiday Season</h3>
+
+<p align="center">
+  <img src="resources/Rev.png" alt="Revenue" width="2000" height="2000" />
+</p>
+
 
 **1. Primary Issue: Order Volume Collapse**
 
