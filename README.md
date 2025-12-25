@@ -45,7 +45,7 @@ Reporting to the CEO, this analysis was conducted to discover why revenue declin
 
 <h3 align="center">THE STRONG START (May-June 2024)</h3>
 
-* **The healthy baseline**: The business started well, **achieving ₦509.5M over the two-month period (₦246.7M in May and ₦262.8M in June), and representing 6.5% month-over-month growth**. The revenue stability across both months (averaging ₦254.8M monthly) showed consistent market demand and predictable business performance.
+* **The healthy baseline**: The business started well, **achieving ₦509.5M over the two-month period (₦246.7M in May and ₦262.8M in June), and representing 6.5% month-over-month growth**.
 
 <br/>
 
@@ -53,7 +53,7 @@ Reporting to the CEO, this analysis was conducted to discover why revenue declin
 
 <h3 align="center">THE DECLINE (July-December 2024)</h3>
 
-* **July-August early decline**: Revenue began declining in July, **falling 8.3% to ₦241.1M from June's ₦262.8M**. It was the first revenue contraction signal, with **₦21.7M** in lost monthly revenue. August accelerated the deterioration with revenue plummeting **13.1% month-over-month to ₦209.5M, marking a cumulative ₦53.3M decline from the June's**.
+* **July-August early decline**: Revenue began declining in July, **falling 8.3% to ₦241.1M from June's ₦262.8M**. It was the first revenue contraction signal, with **₦21.7M** in lost monthly revenue.
 
 <br/>
 
@@ -61,7 +61,7 @@ Reporting to the CEO, this analysis was conducted to discover why revenue declin
 
 <br/>
 
-* **Q4 crisis (Economic Crisis Period)**:  Q4 revenue crashed to **₦587.5M, a 20.5% Q-o-Q decline representing ₦151.2M in lost quarterly revenue**. This collapse occurred during October-December, traditionally the strongest retail quarter due to holiday shopping seasons due to the economic crisis (characterized by fuel scarcity, foreign exchange volatility, and inflation).
+* **Q4 crisis (Economic Crisis Period)**:  Q4 revenue crashed to **₦587.5M, a 20.5% Q-o-Q decline**. This collapse occurred during October-December, traditionally the strongest retail quarter known for its holiday shopping seasons due to the economic crisis (characterized by fuel scarcity, foreign exchange volatility, and inflation).
 
 
 <br/>
@@ -194,7 +194,7 @@ The business maintains **90 SKUs, with 47 products (52% of portfolio) generating
 * Conduct emergency performance reviews with all carrier partners and begin evaluation of alternative carrier options for regional markets if they are unwilling to make changes.
 * Implement flash sale for Black Sleeveless Jumpsuit to recover approximately ₦700K in tied-up capital
 * Launch tiered discount program: 10% after 5th purchase, 15% after 10th purchase
-* Create bundle offers: Traditional + Modern products with reasonable discount
+* Create bundle offers: Traditional + Other product categories at reasonable discounts
 
 
 <br/>
@@ -203,7 +203,7 @@ The business maintains **90 SKUs, with 47 products (52% of portfolio) generating
 
 <br/>
 
-<h2 align="center">DATA STRUCTURE AND ERD (ENTITY RELATIONSHIP DIAGRAM)</h2>
+<h1 align="center">DATA STRUCTURE AND ERD (ENTITY RELATIONSHIP DIAGRAM)</h1>
 
 The Modest Apparel database structure comprises seven interconnected tables containing 75,564 total records from eight months of operations (May-December 2024). At its core, the Order_Details table (42,077 records) serves as the central fact table, linking to dimension tables including Customers (251 records), Products (89 items across 4 categories), and Suppliers (22 vendors). 
 
@@ -470,9 +470,26 @@ Black Sleeveless Jumpsuit (47 dead stock units) represents ₦613K in tied-up ca
 
 <br/>
 
+<h1 align="center">TECHNICAL DETAILS</h1>
+
+This project used Python for all stages of data analysis and visualization with a focus on exploring revenue and orders, and describing Modest Apparel's operational inefficiencies between May 2024 and December 2024.
+
+1. Skills & Functions Used
+Libraries: Numpy, Pandas, Matplotlib, datetime
+Skills: Groupby, Merge, Datatype Conversion, Subplots
 
 
+2. Steps Overview:
 
+- Data Cleaning: Checked all source tables (Order Details, Customer, Product, Supplier, Inventory, Labor, Shipping Details) for missing values, duplicate entries, inconsistent data types, and ambiguous category names. However, they are clean data.
+
+- Import necessary Libraries
+
+- Load All Data
+
+- Initail Table Inspection: Using .info to converting data types of columns needed to be converted
+
+- Data Analysis & Visualization: Using Groupby, Merge to calculate metrics (revenue, units sold, aov, order cycle time (hours), RFM (recency, frequency, monetary) and Subplots for visualizations
 
 
 
